@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dream Portal Test Suite" verbose="1">
+
+    <test name="Home Page Tests">
+        <classes>
+            <class name="com.dreamportal.tests.HomePageTest"/>
+        </classes>
+    </test>
+
+    <test name="Dreams Diary Tests">
+        <classes>
+            <class name="com.dreamportal.tests.DreamsDiaryTest"/>
+        </classes>
+    </test>
+
+    <test name="Dreams Summary Tests">
+        <classes>
+            <class name="com.dreamportal.tests.DreamsTotalTest"/>
+        </classes>
+    </test>
+
+</suite>
