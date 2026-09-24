@@ -1,0 +1,28 @@
+# Build output
+target/
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.swp
+
+# Environment / secrets
+.env
+*.env
+
+# Screenshots (generated at runtime)
+screenshots/
+
+# Allure results (generated at runtime)
+allure-results/
+allure-report/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
